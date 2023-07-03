@@ -42,11 +42,11 @@ const MyNav = () => {
               <div className="mx-md-5 mx-sm-3 mx-1">
                 <div className="nav_container">
                   <div className=" d-flex align-items-center flex-xl-row flex-column justify-content-center justify-content-xl-between  vh_100_992">
-                    <span className=" d-xl-block d-none">
-                      <img src={nav_btn} alt="nav_logo" className="w-75 me-3" />
+                    <span className=" d-xl-block d-none me-3">
+                      <img src={nav_btn} alt="nav_logo" className="w-100 me-3" />
                     </span>
                     {/* search */}
-                    <div className="rounded-pill d-flex align-items-center nav_input me-lg-5">
+                    <div className="rounded-pill d-flex align-items-center nav_input me-lg-4">
                       <input
                         type="text"
                         placeholder="Search here..."
